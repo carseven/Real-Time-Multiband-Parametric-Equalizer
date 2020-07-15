@@ -1,1 +1,6 @@
 # Real-Time-Multiband-Parametric-Equalizer
+El objetivo de este proyecto es implementar una aplicación de procesado digital en tiempo real utilizando un DSP de bajo coste de reciente aparición. Se va a utilizar el C5515. Implementaremos un ecualizador de audio paramétrico multibanda basado en la conexión de varios filtros en paralelo para procesar señales de audios digitales muestreadas a 48 kHz. El sistema implementara varios modos de ecualización que podrán ser seleccionables mediante los pulsadores que nos proporciona la placa del DSP. Cada modo será especificado la ganancia ( o atenuación ) de cada banda. La implantación de las diferentes bandas se realizará mediante filtros tipo FIR.
+
+Hay que mencionar que el proyecto ha sido dividido en dos fases, una inicial de diseño del filtro y prototipado del algoritmo de convolución para implementar el filtro ante señales de entrada. Esta parte fue desarrollada usando MATLAB como herramienta principal por las comodidades que nos proporciona frente trabajar directamente en el DSP usando C. La otra parte en la que exportaríamos el filtro diseñado e implementaríamos la convolución en el DSP.
+
+Toda la información detallada se encuentra en la documentación.
