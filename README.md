@@ -3,7 +3,7 @@ The aim of this project is to implement a real-time digital processing applicati
 
 The project has been divided into two phases, an initial design of the filter and prototyping of the convolution algorithm to implement the filter on input signals. This part was developed using MATLAB as the main tool because of the convenience of working directly on the DSP using C. The other part where we would export the designed filter and implement the convolution in the DSP.
 
-All the detailed information can be found in the [documentation](https://github.com/carseven/Real-Time-Multiband-Parametric-Equalizer/blob/master/DOCUMENTATION/MemoriaTDS.pdf) here.
+All the detailed information can be found in the [documentation](https://github.com/carseven/Real-Time-Multiband-Parametric-Equalizer/blob/master/DOCUMENTATION/MemoriaTDS.pdf) here. The documentation is in Spanish, for more information contact me.
 
 # Ecualizador-Multibanda-Paralelo-Tiempo-Real
 El objetivo de este proyecto es implementar una aplicación de procesado digital en tiempo real utilizando un DSP de bajo coste de reciente aparición. Se va a utilizar el C5515. Implementaremos un ecualizador de audio paramétrico multibanda basado en la conexión de varios filtros en paralelo para procesar señales de audios digitales muestreadas a 48 kHz. El sistema implementara varios modos de ecualización que podrán ser seleccionables mediante los pulsadores que nos proporciona la placa del DSP. Cada modo será especificado la ganancia ( o atenuación ) de cada banda. La implantación de las diferentes bandas se realizará mediante filtros tipo FIR.
